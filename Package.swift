@@ -12,7 +12,7 @@ let package = Package(
             targets: ["KakaoAdPackage"]),
         .library(
             name: "KakaoAdSDK",
-            targets: ["KakaoAdSDK"])
+            targets: ["KakaoAdSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
