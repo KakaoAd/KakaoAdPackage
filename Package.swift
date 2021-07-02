@@ -24,8 +24,8 @@ let package = Package(
         .target(
             name: "KakaoAdPackage",
             dependencies: []),
-        .binaryTarget(name: "KakaoADSDK",
-                      path: "Framework/KakaoADSDK.xcframework"),
+        .binaryTarget(name: "KakaoAdSDK",
+                      path: "Framework/KakaoAdSDK.xcframework"),
         .testTarget(
             name: "KakaoAdPackageTests",
             dependencies: ["KakaoAdPackage"]),
