@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "KakaoAdPackage",
+    name: "KakaoAd",
     platforms: [
         .iOS(.v9)
     ],
