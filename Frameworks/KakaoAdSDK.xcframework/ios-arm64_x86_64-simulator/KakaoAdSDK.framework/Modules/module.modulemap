@@ -6,6 +6,6 @@ framework module KakaoAdSDK {
 }
 
 module KakaoAdSDK.Swift {
-    header "KakaoAdSDK-Swift.h"
-    requires objc
+  header "KakaoAdSDK-Swift.h"
+  requires objc
 }
