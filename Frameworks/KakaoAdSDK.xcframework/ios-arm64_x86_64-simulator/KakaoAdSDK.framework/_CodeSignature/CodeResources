@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KakaoAdSDK-Swift.h</key>
 		<data>
-		20bZltiGFjrDrFeVsvwocEMxj1I=
+		YxVkSZFmQSveY39st1oJqW1KMAc=
 		</data>
 		<key>Headers/KakaoAdSDK.h</key>
 		<data>
@@ -14,51 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tJjX8fnZxSFxoQXxToIY0oTSxJ4=
+		bH32AeqgGA3PotvsHoJcqQgHa+s=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rIkaLRZsVJDxbolS7GvN5nAQtls=
+		M/zxYWbv81dBWfjgLaQyk9gjhco=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EJOa1hg8HjGqFEhcUm2J5EUnXSM=
+		uO/AvQzmzP+WQ5HCB5f1+8avu/w=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NDklEgAmBgI71VCSd0JBQFrUUpM=
+		BZpOAfGZDqi6+Frytz8cnJiQQpI=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EJOa1hg8HjGqFEhcUm2J5EUnXSM=
+		uO/AvQzmzP+WQ5HCB5f1+8avu/w=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fCZiTJblCortYd5uMwOHXWRkOMM=
+		1Uxv6kC2oLMR2PmQo3/bbKZ6Yx8=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rIkaLRZsVJDxbolS7GvN5nAQtls=
+		M/zxYWbv81dBWfjgLaQyk9gjhco=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		n9QqgVunalITXqT53xsWyk0i48Q=
+		5kwk/elDqHgm5ihrql4doK9L8B4=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/glfPZOGpYH90/tjViVFHtgDuL0=
+		Rm/VhZucjL8AVqHeEtlA3yEYGGw=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		n9QqgVunalITXqT53xsWyk0i48Q=
+		5kwk/elDqHgm5ihrql4doK9L8B4=
 		</data>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fes/XNpmZpDsqSacAyGL4jgxZ0U=
+		7mTo8TqnEXLALBNgdhpC6+nTzWw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		Q25wX4hCVAcOsAGARHbPZ5StBtw=
+		R3Q2yXCJs8l1Wvw+R9UkZxswxkg=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m5qnhZtwO1+P/nZkGCS6pMzUHQCoAf1BuxmMvZ2wZsY=
+			tWq/CllW9jGx4d/2OpH2I8TmO3Z8Upnpzq+cd8wMfCY=
 			</data>
 		</dict>
 		<key>Headers/KakaoAdSDK.h</key>
@@ -85,77 +85,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRroeat5cnifuq+hmGYfG2k0DI4iyiHOfg7UPnPTv5M=
+			fwzfnXgk4qmdwyUdPfRR+Khf5Y7cyibm6IQOrxr83pQ=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Iiu9HsBN7BZamKgcFljr9RbkREug2Tz/QxQSn9gHpQ=
+			29N1uL8Qvcct7h9+Zt0v47neuS7HZJFMduZnuRKTatg=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qf6TMKY4DrCLij4nRjYCvhPB8agyrVyIUrm91DsWP9w=
+			NsPFwlf1PejSXNXI5XLAAKuvwQR17NRBpUcR804yPO0=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Iiu9HsBN7BZamKgcFljr9RbkREug2Tz/QxQSn9gHpQ=
+			29N1uL8Qvcct7h9+Zt0v47neuS7HZJFMduZnuRKTatg=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u5fz9F3I6SrirW5LKhlUT57N1fjN+/rWYc6Z4/O8Fl4=
+			idJu6RsSEpfA334QombDGWIZ4ciXiH6vAbUzOtP6LII=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GRroeat5cnifuq+hmGYfG2k0DI4iyiHOfg7UPnPTv5M=
+			fwzfnXgk4qmdwyUdPfRR+Khf5Y7cyibm6IQOrxr83pQ=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjBdJwJQ8Sxh4E36sU1V3I6L+jpujuW8r5u62nrRITU=
+			+br40XJY5kH64qg7sgZDsX9CqoNHJslU4B9LqcBmBuE=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KLG0j7gsj9yx9hsF5rdPHgbk7BMYPCqc15os7wEwi5g=
+			iR3f7dyzpKiHtAovX+qdCNbOWNBiBBKMD/5sDd/JjS4=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SjBdJwJQ8Sxh4E36sU1V3I6L+jpujuW8r5u62nrRITU=
+			+br40XJY5kH64qg7sgZDsX9CqoNHJslU4B9LqcBmBuE=
 			</data>
 		</dict>
 		<key>Modules/KakaoAdSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IxLTpG/GyGNovBixDz9YeUA4NoTFWBWAyObfAL/zG8=
+			xX1Bm8CRCUNu4M4quFhfpoKFaGoBY2YJMdEmE3YlEsU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGMm244ceqtVJP2KYXuUcgyX71Ok0ainwQxLb1agWgg=
+			3W0Bp1gD4lqPajhCwiw0td9C/87km8Ap1cNdKimIJao=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
