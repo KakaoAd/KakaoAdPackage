@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KakaoAdSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KakaoAdSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AdSupport
 import AppTrackingTransparency
 import CoreTelephony
@@ -15,8 +15,12 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc public class KakaoAdDetailProduct : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(name: Swift.String?, quantity: Swift.Int, price: Swift.Double)
-  @objc public init(id: Swift.String?, name: Swift.String?, quantity: Swift.Int, price: Swift.Double, brand: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(id: Swift.String?, name: Swift.String?, quantity: Swift.Int, price: Swift.Double, brand: Swift.String? = nil, brandId: Swift.String? = nil)
+  #endif
   @objc public func dictionaryRepresentation() -> [Swift.String : Swift.String]
   @objc deinit
 }
@@ -28,25 +32,57 @@ import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @objc public class KakaoAdTracker : ObjectiveC.NSObject {
   @objc public static var trackId: Swift.String
   @objc public static func activate()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendViewCartEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendCompleteRegisterEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "이 함수는 더 이상 사용되지 않습니다. 대신 sendViewContentEvent(tag:products:)를 사용하세요.")
   @objc public static func sendViewContentEvent(tag: Swift.String?, contentId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendViewContentEvent(tag: Swift.String?, currency: Swift.String?, products: [KakaoAdSDK.KakaoAdDetailProduct])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendSearchEvent(tag: Swift.String?, searchString: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendPurchaseEvent(tag: Swift.String?, totalQuantity: Swift.Int, totalPrice: Swift.Double, currency: Swift.String?, transactionId: Swift.String?, products: [KakaoAdSDK.KakaoAdDetailProduct])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendMissionCompleteEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendTutorialEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendPreparationEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendLoginEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendParticipationEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendSignUpEvent(tag: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "이 함수는 더 이상 사용되지 않습니다. 대신 sendAddToCartEvent(tag:products:)를 사용하세요.")
   @objc public static func sendAddToCartEvent(tag: Swift.String?, contentId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendAddToCartEvent(tag: Swift.String?, currency: Swift.String?, products: [KakaoAdSDK.KakaoAdDetailProduct])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "이 함수는 더 이상 사용되지 않습니다. 대신 sendAddToWishListEvent(tag:products:)를 사용하세요.")
   @objc public static func sendAddToWishListEvent(tag: Swift.String?, contentId: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func sendAddToWishListEvent(tag: Swift.String?, currency: Swift.String?, products: [KakaoAdSDK.KakaoAdDetailProduct])
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
